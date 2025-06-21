@@ -1,5 +1,5 @@
 import {useState} from "react";
-import styles from './Task6.module.css';
+import styles from './task6.module.css';
 import DishesLColumn from "./DishesLColumn.jsx";
 
 const initialWaitingList = [

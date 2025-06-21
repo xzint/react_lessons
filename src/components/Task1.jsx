@@ -1,5 +1,5 @@
 import {useState} from "react";
-import styles from './Task1.module.css';
+import styles from './task1.module.css';
 
 function Task1() {
     const FORM_STATE = {

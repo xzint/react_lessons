@@ -1,0 +1,18 @@
+.header {
+    display: flex;
+    gap: 2rem;
+}
+.header input {
+    margin-left: 1rem;
+}
+.main {
+}
+.content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: .5rem;
+}
+.listColumn {
+    display: flex;
+    flex-direction: column;
+}

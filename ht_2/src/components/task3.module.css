@@ -1,0 +1,19 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.content.correct,
+.content.incorrect {
+    pointer-events: none;
+    cursor: not-allowed;
+}
+.content.correct {
+    border: 2px solid green;
+}
+.content.incorrect {
+    border: 2px solid red;
+}
+.image {
+    width: 100px;
+}

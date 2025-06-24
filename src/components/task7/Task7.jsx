@@ -7,7 +7,7 @@ export default function Task7() {
     const [filteredList, setFilteredList] = useState([]);
 
     useEffect(() => {
-        setFilteredList(prev => {
+        setFilteredList(() => {
             if (!name) {
                 return [];
             }

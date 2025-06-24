@@ -1,7 +1,7 @@
 import Cell from "./Cell.jsx";
 import styles from "./styles.module.css";
 
-export default function GameField({ board, onCellClick, isXNext }) {
+export default function GameField({ board, onCellClick }) {
     return (
         <div className={styles.gameField}>
             {board.map((value, index) => (

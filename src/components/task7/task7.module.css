@@ -1,0 +1,13 @@
+.content {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.highlight {
+    color: gold;
+}

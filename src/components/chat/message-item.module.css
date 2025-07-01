@@ -1,0 +1,34 @@
+.messageItem {
+    display: flex;
+
+}
+.current-message {
+    justify-content: flex-start;
+}
+.other-message {
+    justify-content: flex-end;
+}
+.messageContent {
+    width: 50%;
+    padding: 1rem;
+    border-radius: 4px;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+.current-message .messageContent{
+    background-color: #eec4f4;
+}
+.other-message .messageContent {
+    background-color: #e7fa93;
+}
+.messageRow {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.5rem;
+}
+
+.author {
+    font-weight: bold;
+}

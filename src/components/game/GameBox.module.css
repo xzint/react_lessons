@@ -1,0 +1,22 @@
+.numberList {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 10px;
+}
+.numberCell {
+    width: 60px;
+    height: 60px;
+    background-color: #213547;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    span {
+        display: none;
+    }
+}
+.guessed {
+    background-color: #eec4f4;
+    color: #213547;
+}

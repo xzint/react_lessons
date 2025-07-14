@@ -36,7 +36,7 @@ export default function GameHeader({randomNumbers, setRandomNumbers, guessedNumb
             }
             <div>
                 {randomNumbers?.length > 0 &&
-                    <div>
+                    <div className={styles.numbersWrapper}>
                         <p>Загадані числа:</p>
                         <ul className={styles.numberList}>
                             {randomNumbers.map((num, index) => (

@@ -6,8 +6,11 @@ function App() {
 
     return (
         <>
-            <Chat/>
             <GameBox/>
+            <br/>
+            <hr/>
+            <br/>
+            <Chat/>
         </>
     )
 }

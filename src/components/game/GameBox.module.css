@@ -20,3 +20,9 @@
     background-color: #eec4f4;
     color: #213547;
 }
+.numbersWrapper {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

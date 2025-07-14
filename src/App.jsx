@@ -1,12 +1,12 @@
 import './App.css'
-import Chat from "./components/chat/Chat.jsx";
 import GameBox from "./components/game/GameBox.jsx";
+import Chat from "./components/chat/Chat.jsx";
 
 function App() {
 
     return (
         <>
-            {/*<Chat/>*/}
+            <Chat/>
             <GameBox/>
         </>
     )
